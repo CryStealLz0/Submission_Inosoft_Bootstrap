@@ -15,7 +15,7 @@
   </head>
   <body class="bg-black">
     <header>
-      <nav class="p-3 mb-2 bg-secondary text-emphasis-info">
+      <nav class="p-3 bg-secondary text-emphasis-info">
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link text-black" aria-current="page" href="#home"
@@ -48,7 +48,14 @@
     </header>
 
     <main id="home">
-      <section>
+      <section
+        style="
+          height: calc(80vh);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
         <div class="container">
           <div class="pt-5 pb-5 position-relative" style="z-index: 1">
             <div class="mb-16 text-center mw-md-3xl mx-auto">
@@ -73,7 +80,7 @@
       </section>
 
       <!-- Card -->
-      <section id="category">
+      <section id="category" style="margin-bottom: 200px">
         <div class="container">
           <div class="row mx-5">
             <div id="herbivora" class="col-md mb-3">
@@ -220,7 +227,10 @@
       <!-- Contact End -->
 
       <!-- Footer -->
-      <footer class="bg-secondary text-white text-center">
+      <footer
+        class="bg-secondary text-white text-center"
+        style="margin-bottom: -20px"
+      >
         <p class="p-4">
           Website Jenis Hewan Pemakan &#169; 2023, Dimas Indra Jaya
         </p>
